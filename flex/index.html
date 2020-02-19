@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <p id="question">Qu'est-ce que l'univers ?</p>
+    <div class="row">
+        <button id="b1" class="block" onclick="q2()">toto</button>
+        <button id="b2" class="block" onclick="q2()">titi</button>
+        <button id="b3" class="block" onclick="q2()">tonton</button>
+    </div>
+    <script>
+        function q2 () {
+            setTimeout(function () {
+                var q = document.getElementById("question");
+                var b1 = document.getElementById("b1");
+                var b2 = document.getElementById("b2");
+                var b3 = document.getElementById("b3");
+                q.innerText = "Qu'est ce que le pain ?";
+                b1.innerText ="pano";
+                b2.innerText ="pane";
+                b3.innerText = "pani";
+            }, 3000);
+        }
+
+    </script>
+</body>
+</html>

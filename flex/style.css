@@ -1,0 +1,12 @@
+.row {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.block {
+    display: block;
+    width: 100px;
+    height: 100px;
+    border: 1px solid black;
+}

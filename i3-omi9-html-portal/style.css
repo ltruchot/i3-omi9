@@ -1,0 +1,19 @@
+img {
+    width: 200px;
+    border: 1px dotted green;
+}
+p {
+    border-bottom: 3px solid red;
+    text-align: center;
+}
+
+.special {
+    color: red;
+    background-color: aqua;
+}
+.uppercase {
+    text-transform: uppercase;
+}
+#title-1 {
+    border: 2px dashed goldenrod;
+}
